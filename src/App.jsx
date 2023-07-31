@@ -14,12 +14,12 @@ function App() {
   <div id="container">
 
       <div id="navbar">
-        <Link to="/"/><a href="/">Home</a>
-        <Link to="/blue"/><a href="Blue">Blue</a>
-        <Link to="/red"/><a href="Red">Red</a>
-        <Link to="/green"/><a href="Green">Green</a>
-        <Link to="/gray"/><a href="Gray">Grey</a>
-        <Link to="/photo"/><a href="Photo">Photo</a>
+        <Link to="/">Home</Link>
+        <Link to="/blue">Blue</Link>
+        <Link to="/red">Red</Link>
+        <Link to="/green">Green</Link>
+        <Link to="/gray">Grey</Link>
+        <Link to="/photo">Photo</Link>
       </div>
       <div id="main-section">
         <Routes>
