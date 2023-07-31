@@ -1,10 +1,11 @@
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from './components/Home.jsx'
 import Blue from './components/Blue.jsx'
 import Green from './components/Green.jsx'
 import Red from './components/Red.jsx'
 import Gray from './components/Gray.jsx'
 import Photo from './components/Photo.jsx'
+import Navbar from "./components/Navbar.jsx";
 import './App.css'
 
 function App() {
@@ -14,13 +15,9 @@ function App() {
   <div id="container">
 
       <div id="navbar">
-        <Link to="/">Home</Link>
-        <Link to="/blue">Blue</Link>
-        <Link to="/red">Red</Link>
-        <Link to="/green">Green</Link>
-        <Link to="/gray">Grey</Link>
-        <Link to="/photo">Photo</Link>
+        <Navbar />
       </div>
+
       <div id="main-section">
         <Routes>
             <Route path="/" element={<Home/>}/>
