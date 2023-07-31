@@ -13,11 +13,11 @@ function App() {
   <div id="container">
 
       <div id="navbar">
-        <Link to="/"/>
-        <Link to="/blue"/>
-        <Link to="/red"/>
-        <Link to="/green"/>
-        <Link to="/gray"/>
+        <Link to="/"/><a href="/">Home</a>
+        <Link to="/blue"/><a href="Blue">Blue</a>
+        <Link to="/red"/><a href="Red">Red</a>
+        <Link to="/green"/><a href="Green">Green</a>
+        <Link to="/gray"/><a href="Gray">Grey</a>
       </div>
       <div id="main-section">
         <Routes>
