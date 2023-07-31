@@ -19,6 +19,10 @@ body > div {
   display: flex;
 }
 
+a {
+  text-align: justify;
+}
+
 #navbar {
   padding: 2em;
   justify-content: space-evenly;
@@ -26,6 +30,7 @@ body > div {
 
 #main-section {
   flex-grow: 1;
+  flex-shrink: -1;
 }
 
 #main-section > div {
@@ -70,4 +75,12 @@ body > div {
   -webkit-text-fill-color: rgba(93, 87, 87, 0.584);
   color: rgb(106, 105, 105);
   border-radius: 30%;
+}
+
+.photo {
+  -webkit-text-fill-color: rgba(4, 37, 73, 0.584);
+}
+
+.photo img {
+  border-radius: 50%;
 }
